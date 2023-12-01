@@ -1,0 +1,51 @@
+.box{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: lightgreen;
+}
+
+
+.child_1{
+position: absolute;
+right: 0;
+background-color: yellow;
+height: 100px;
+width: 100px;
+}
+
+.child_2{
+    position: absolute;
+    left: 0;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+
+.child_3{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+
+.child_4{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+
+.child_5{
+    position: absolute;
+    right: 37%;
+    bottom: 37%;
+    border-radius: 50%;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
